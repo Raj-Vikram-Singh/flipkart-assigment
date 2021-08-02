@@ -1,0 +1,38 @@
+
+  .table_header_wrapper {
+    display: flex;
+    width: 700px;
+    background: grey;
+    padding: 15px;
+  }
+
+  .header,
+  .column {
+    min-width: 150px;
+    margin-right: 20px;
+    max-width: 200px;
+  }
+
+  .table_row {
+    display: flex;
+    width: 700px;
+    padding: 15px;
+  }
+
+  .table_row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .btn {
+    display: flex;
+    margin: 20px 0px;
+    background: #2269ee;
+    color: white;
+    border: none;
+    padding: 10px
+  }
+
+  .search {
+    padding: 5px;
+    margin: 15px 0px;
+  }
